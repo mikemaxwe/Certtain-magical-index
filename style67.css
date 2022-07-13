@@ -1,0 +1,231 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
+.big{
+    font-size: 25px;
+    font-family: 'franklin gothic medium';
+    text-align: center;
+    background-color: aquamarine;
+    color: brown;
+}
+#kg{
+    width: 284px;
+    margin-left: 458px;
+    margin-right: 15px;
+    padding: 5px;
+    border: 2px solid red;
+    text-align: center;
+}
+.gh{
+    font-size: 25px;
+    font-family: 'segoe ui';
+    margin-left: 5px;
+    /* border: 2px solid black; */
+    margin-bottom: 7px;
+}
+.hg{
+    font-size: 25px;
+    font-family: 'segoe ui';
+    margin-left: 5px;
+    /* border: 2px solid black; */
+    margin-bottom: 7px;
+}
+.gg{
+    font-size: 25px;
+    font-family: 'segoe ui';
+    margin-left: 5px;
+    /* border: 2px solid black; */
+    margin-bottom: 7px;
+}
+.hh{
+    font-size: 25px;
+    font-family: 'segoe ui';
+    margin-left: 5px;
+    /* border: 2px solid black; */
+    margin-bottom: 7px;
+}
+.mj img{
+    width: 338px;
+    margin-left: 5px;
+
+}
+
+figure{
+    display: inline;
+    /* border: 1px solid black; */
+
+    border-radius: 10px 100px / 120px;
+}
+@media screen and (max-width:900px) {
+    .big{
+        background-color: peachpuff;
+        color: brown;
+    }
+    #kg{
+        width: 284px;
+        margin-left: 275px;
+        margin-right: 15px;
+        padding: 5px;
+        border: 2px solid red;
+        text-align: center;
+    }
+    .gh{
+        font-size: 15px;
+        font-family: 'segoe ui';
+        margin-left: 5px;
+        border: 2px solid black;
+        margin-bottom: 7px;
+    }
+    .hg{
+        font-size: 15px;
+        font-family: 'segoe ui';
+        margin-left: 5px;
+        border: 2px solid black;
+        margin-bottom: 7px;
+    }
+    .gg{
+        font-size: 15px;
+        border: 2px solid black;
+    }
+    .hh{
+        font-size: 15px;
+        font-family: 'segoe ui';
+        margin-left: 5px;
+        border: 2px solid black;
+        margin-bottom: 7px;
+    }
+    .mj img{
+        width: 338px;
+        margin-left: 5px;
+        display: none;
+    
+    }
+  
+}
+@media screen and (max-width: 500px) {
+
+    body{
+        background-color: pink;
+    }
+    .big{
+        background-color: rgb(225, 105, 0);
+        color: brown;
+    }
+    #kg{
+        width: 284px;
+        margin-left: 77px;
+        margin-right: 15px;
+        padding: 5px;
+        border: 2px solid red;
+        text-align: center;
+        
+    }
+    .gh{
+        font-size: 15px;
+        font-family: 'segoe ui';
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid black;
+        margin-bottom: 7px;
+    }
+    .hg{
+        font-size: 15px;
+        font-family: 'segoe ui';
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid black;
+        margin-bottom: 7px;
+    }
+    .gg{
+        font-size: 15px;
+        border: 2px solid black;
+        margin-right: 5px;
+    }
+    .hh{
+        font-size: 15px;
+        font-family: 'segoe ui';
+        margin-left: 5px;
+        border: 2px solid black;
+        margin-bottom: 7px;
+        margin-right: 5px;
+    }
+    .mj img{
+        width: 338px;
+        margin-left: 5px;
+        display: none;
+    
+    }
+    figure img {
+        margin-left: 5px;
+        border-radius: 10px 100px / 120px;
+
+        
+    }
+    @media screen and (max-width: 400px) {
+        body{
+            background-color: pink;
+            text-align: center;
+        }
+        .big{
+            background-color: rgb(225, 105, 0);
+            color: brown;
+        }
+        #kg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid red;
+            /* text-align: center; */
+            
+        }
+        img{
+            text-align: center;
+        }
+        .gh{
+            font-size: 15px;
+            font-family: 'segoe ui';
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 2px solid black;
+            margin-bottom: 7px;
+        }
+        .hg{
+            font-size: 15px;
+            font-family: 'segoe ui';
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 2px solid black;
+            margin-bottom: 7px;
+        }
+        .gg{
+            font-size: 15px;
+            border: 2px solid black;
+            margin-right: 5px;
+        }
+        .hh{
+            font-size: 15px;
+            font-family: 'segoe ui';
+            margin-left: 5px;
+            border: 2px solid black;
+            margin-bottom: 7px;
+            margin-right: 5px;
+        }
+        .mj img{
+            width: 338px;
+            margin-left: 5px;
+            display: none;
+        
+        }
+        figure img {
+            margin-left: 5px;
+            border-radius: 10px 100px / 120px;
+    
+            
+        }
+        
+    }
+    
+}
